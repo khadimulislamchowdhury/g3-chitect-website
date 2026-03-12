@@ -7,3 +7,83 @@
   font-weight: 400px;
   font-style: normal;
 }
+/* shared styles */
+ .display-flex{
+    display: flex;
+}
+/* dark 02 */
+.text-gray{
+    color: #424242;
+}
+/* dark03 */
+.text-light-gray{
+    color: #727272;
+
+}
+
+
+/* header styles */
+.bg-ligth{
+    background-color:rgba(255, 114,14, 0.1);
+}
+.brand{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+/*  navbar related style */
+.navber{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 400px;
+}
+.navber,.banner{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.banner-paragerap{
+    color: #727272;
+}
+.nav-bnt{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
+
+/*  banner related style */
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: ;
+
+}
+.banner-logo{
+    width:100% ;
+}
+/* Responsibe mideo quary */
+@media screen  and (max-width:576px){
+    .navber,.nav-link{
+        flex-direction: column;
+    }
+    
+}
